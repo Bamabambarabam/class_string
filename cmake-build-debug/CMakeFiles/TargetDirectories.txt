@@ -1,0 +1,4 @@
+C:/Users/Leo/CLionProjects/class_string/cmake-build-debug/CMakeFiles/prime_lib.dir
+C:/Users/Leo/CLionProjects/class_string/cmake-build-debug/CMakeFiles/class_string.dir
+C:/Users/Leo/CLionProjects/class_string/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Leo/CLionProjects/class_string/cmake-build-debug/CMakeFiles/rebuild_cache.dir
