@@ -5,8 +5,8 @@
 #include <cstring> // for strlen, strcpy, etc.
 #include <cctype>
 
-#ifndef CLASS_STRING_STRING_H
-#define CLASS_STRING_STRING_H
+#ifndef CLASS_STRING_STR_H
+#define CLASS_STRING_STR_H
 
 class MyString {
 private:
@@ -63,4 +63,4 @@ public:
 };
 
 
-#endif //CLASS_STRING_STRING_H
+#endif //CLASS_STRING_STR_H
