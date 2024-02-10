@@ -21,7 +21,6 @@ MyString::MyString(const MyString &other) {
 
 // конструктор переноса
 MyString::MyString(MyString &&other) : str(std::move(other.str)) {
-    std::cout << 24324;
     other.str = nullptr;
 }
 
@@ -65,18 +64,12 @@ MyString &MyString::operator=(MyString &&other) {
 
 // сравнение на равенство
 bool MyString::operator==(const MyString &other) const {
-    if (strcmp(this->str, other.str) == 0) {
-        return true;
-    }
-    return false;
+    return strcmp(this->str, other.str) == 0;
 }
 
 // сравнение на неравенство
 bool MyString::operator!=(const MyString &other) const {
-    if (strcmp(this->str, other.str) == 0) {
-        return false;
-    }
-    return true;
+    return strcmp(this->str, other.str) != 0;
 }
 
 // сложение (конкатенация двух строк)
