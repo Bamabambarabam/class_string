@@ -31,8 +31,8 @@ MyString::MyString(const std::string &other) {
 }
 
 // возвращение указателя на данные (тип char*)
-char *MyString::get(const int index) const {
-    return &this->str[index];
+char *MyString::get() const {
+    return this->str;
 }
 
 // количество символов (длина строки)

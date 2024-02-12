@@ -25,7 +25,7 @@ public:
 
     virtual ~MyString();
 
-    char *get(const int index) const;
+    char *get() const;
 
     size_t length();
 
