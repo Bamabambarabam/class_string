@@ -1,14 +1,16 @@
 #include "str.h"
 
-MyString::MyString() {
-    str = nullptr;
-}
 
 // конструктор с одним параметром (есть значение по-умолчанию nullptr)
 MyString::MyString(const char *str) {
-    this->str = new char[strlen(str) + 1];
-    strcpy(this->str, str);
-    this->str[strlen(str)] = '\0';
+    if(str == nullptr){
+        this->str = nullptr;
+    }
+    else{
+        this->str = new char[strlen(str) + 1];
+        strcpy(this->str, str);
+        this->str[strlen(str)] = '\0';
+    }
 }
 
 // конструктор копирования

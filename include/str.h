@@ -13,9 +13,8 @@ private:
     char *str;
 
 public:
-    MyString();
 
-    MyString(const char *str);
+    MyString(const char *str = nullptr);
 
     MyString(const MyString &string);
 

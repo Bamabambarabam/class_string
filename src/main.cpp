@@ -9,7 +9,7 @@ int main() {
     std::cout << "--< test 2 >--\n";
     MyString str2("1234");
     std::cout << str2 << std::endl; //1234
-    std::cout << str2.get() << std::endl;// 4
+    std::cout << str2.get()[3] << std::endl;// 4
 
     std::cout << "--< test 3 >--\n";
     std::cin >> str2;
